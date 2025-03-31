@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 820px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.my-1 {
+    margin: 16px 0;
+}
+.my-2 {
+    margin: 32px 0;
+}
+.my-3 {
+    margin: 48px 0;
+}
+
+.mx-1 {
+    margin: 0 16px;
+}
+.mx-2 {
+    margin: 0 32px;
+}
+.mx-3 {
+    margin: 0 48px;
+}
+
+.py-1 {
+    padding: 16px 0;
+}
+.py-2 {
+    padding: 32px 0;
+}
+.py-3 {
+    padding: 48px 0;
+}
+
+.px-1 {
+    padding: 0 16px;
+}
+.px-2 {
+    padding: 0 32px;
+}
+.px-3 {
+    padding: 0 48px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.65%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.64%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.67%;
+}
+.col-12 {
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+.justify-content-flex-start {
+    justify-content: flex-start;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-space-between {
+    justify-content: space-between;
+}
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+.justify-content-space-around {
+    justify-content: space-around;
+}
+.justify-content-flex-start {
+    justify-content: flex-start;
+}
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+
+
+.align-item-start {
+    align-items: flex-start;
+}
+.align-item-end {
+    align-items: flex-end;
+}
+.align-item-center {
+    align-items: center;
+}
+
+
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+.postion-fixed {
+    position: fixed;
+}
+.postion-sticky {
+    position: sticky;
+}
+
+.text-align-center {
+    text-align: center;
+}
